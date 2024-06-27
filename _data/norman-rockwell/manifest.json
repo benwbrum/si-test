@@ -1,0 +1,41 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://benwbrum.github.io/si-test/norman-rockwell/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Norman Rockwell" ] },
+    "homepage": [
+      {
+        "id": "https://mads.si.edu/mads/view/NMAH-AC0018-OF0005",
+        "type": "Text",
+        "label": { "en": [ "Norman Rockwell" ] },
+        "format": "text/html"
+      }
+    ],
+    "items": [
+      {
+        "id": "https://benwbrum.github.io/si-test/norman-rockwell/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 69.0,
+        "items": [
+          {
+            "id": "https://benwbrum.github.io/si-test/norman-rockwell/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://benwbrum.github.io/si-test/norman-rockwell/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://mads.si.edu/mads/id/NMAH-AC0018-OF0005/NMAH-AC0018-OF0005.m3u8",
+                    "type": "Video",
+                    "format": "application/x-mpegurl",
+                    "duration": 69.0
+                },
+                "target": "https://benwbrum.github.io/si-test/norman-rockwell/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
