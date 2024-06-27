@@ -16,6 +16,16 @@
         "id": "https://benwbrum.github.io/si-test/norman-rockwell/canvas-1/canvas",
         "type": "Canvas",
         "duration": 69.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://benwbrum.github.io/si-test/annotations/norman-rockwell-canvas-1-caption.json",
+            "label": {
+              "none": ["Caption"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://benwbrum.github.io/si-test/norman-rockwell/canvas-1/paintings",
