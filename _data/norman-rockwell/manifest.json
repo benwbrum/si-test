@@ -20,6 +20,14 @@
           
           {
             "type": "AnnotationPage",
+            "id": "https://benwbrum.github.io/si-test/annotations/norman-rockwell-canvas-1-audio-description.json",
+            "label": {
+              "none": ["Audio Description"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
             "id": "https://benwbrum.github.io/si-test/annotations/norman-rockwell-canvas-1-caption.json",
             "label": {
               "none": ["Caption"]
